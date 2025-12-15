@@ -27,6 +27,7 @@
     <modules>
         <!-- Os projetos serão adicionados aqui conforme forem criados -->
         <module>common</module>
+        <module>exemplo-api-rest</module>
     </modules>
 
     <dependencyManagement>
@@ -56,6 +57,7 @@
                     <configuration>
                         <source>${java.version}</source>
                         <target>${java.version}</target>
+                        <parameters>true</parameters>
                     </configuration>
                 </plugin>
             </plugins>
